@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.page{
+  margin: 0;
+  align-items: center;
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient( to left  ,#4DE5FF, #034854);
+   display: flex;
+   justify-content: center;
+}
+.InscriptionIcon{
+  border-radius: 8px;
+  width: 70%;
+  height: 80%;
+  display: block;
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.InsideInscriptionIcon{
+    display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 100%;
+  padding: 3rem;
+  align-items: center;
+}
+h2{
+  color: black;
+}
+form{
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+form input{
+  margin: 1rem;
+  padding: 1rem;
+}
+form button{
+  margin-top: 2rem;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(to left, #1b8294,#034854);
+}
+.separator{
+  width:0.3333%;
+  background: linear-gradient(#4DE5FF, #034854);
+  height: 90%;
+  margin: 3rem;
+  margin-right: 10rem;
+  
+}
+.Inscrire_image img{
+
+   width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
