@@ -1,0 +1,147 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.head {
+  background-color: white;
+  color :black;
+   border: 1px blueviolet solid;
+     
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  height: 60px;
+  align-items: center;
+  
+  
+  
+  background-color:white;
+  max-width: 1200px;
+  margin: auto;
+  
+
+}
+.nav-links {
+  display: flex ;
+  gap: 50px;
+  list-style: none;
+}
+.logo img{
+  
+  width: 120px;  
+  height: auto;
+
+}
+nav a {
+  text-decoration: none; 
+  color: black;
+  font-size: 16px;
+   font-weight: 500; 
+}
+
+nav a:hover {
+  background: linear-gradient(90deg, #0a5c6a 0%, #0f9ba8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.auth-buttons .btn-signup{
+font-family: 'Poppins', sans-serif;
+border: none;
+background-color: white;
+font-size: 16px;
+font-weight: 500;
+color: #00A1BB;
+text-decoration: underline;
+ padding-right: 32px;
+    
+
+
+}
+.auth-buttons .btn-login{
+  font-family: 'Poppins', sans-serif;
+ background: linear-gradient(90deg, #0a5c6a  0%, #0f9ba8 100%);
+ border: none;
+ color: white;
+ width: 100px;
+ 
+ 
+ padding: 7px;
+ border-radius: 5px;
+
+
+}
+.Accueil-page {
+  
+  margin-left: 60px;
+  padding-top: 80px;
+  
+  
+  
+  
+}
+.Accueil {
+  
+  background-size: cover;
+   height: 100vh;
+  
+   background: 
+   
+  
+      
+
+  
+      linear-gradient(to right, 
+    #092734 0%, 
+    #0F1F2C 45%, 
+       #0F1F2C 50%, 
+    rgba(215, 223, 226, 0) 55%
+  ),
+  url("../assets/backg.png");
+  
+
+  
+  
+   background-size: 100% 100%, 50% 100%; 
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  color: white;
+  
+  
+}
+.titre {
+   font-family: 'Oswald', sans-serif;
+  width: 500px;
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+.par {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  width: 700px;
+  color: #DDDDDD;
+  font-size: 15px;
+   padding-bottom: 30px;
+    line-height: 2.5;
+  
+}
+.login-accueil {
+  font-family: 'Poppins', sans-serif;
+ background: linear-gradient(90deg, #0a5c6a  0%, #0f9ba8 100%);
+ border: none;
+ color: white;
+ width: 130px;
+ padding: 10px;
+ font-weight: 700;
+ border-radius: 5px;
+ font-size: 17px;
+
+}
+
+    
